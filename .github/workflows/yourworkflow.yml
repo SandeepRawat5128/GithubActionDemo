@@ -9,7 +9,7 @@ on:
  
 jobs:
   Logintodockerhub-Dev:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     environment: dev
     steps:
       - uses: actions/checkout@v3
