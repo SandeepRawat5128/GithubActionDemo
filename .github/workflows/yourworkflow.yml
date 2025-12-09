@@ -10,7 +10,7 @@ on:
 jobs:
   Logintodockerhub-Dev:
     runs-on: self-hosted
-    environment: dev
+    environment: qa
     steps:
       - uses: actions/checkout@v3
       - name: Docker Login
